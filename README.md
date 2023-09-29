@@ -1,21 +1,39 @@
-# [Repository Name] - Handwritten Digit Classification using PyTorch
+# Handwritten Digit Classification using PyTorch
 
-![Project Image](insert_project_image_url_here)
+![Project Banner](img/mnist_image.jpg)
 
 ## Overview
 
-This project is a machine learning model for classifying handwritten digits using the MNIST dataset. The goal is to build and train a fully connected neural network using PyTorch to accurately recognize and classify handwritten digits (0-9).
+This project is a machine learning model for handwritten digit classification, employing PyTorch to achieve superior results on the MNIST dataset. The primary objective is to construct and train a fully connected neural network capable of accurately identifying and categorizing handwritten digits (0-9).
 
-## Project Files
+## Project Components
 
-- [Jupyter Notebook](notebook.ipynb): Contains the code for the project.
-- [Model Weights](model_weights.pth): Pre-trained model weights.
-- [MNIST Dataset](https://pytorch.org/docs/stable/torchvision/datasets.html#mnist): You can download the dataset using PyTorch's torchvision library.
+- [Jupyter Notebook](notebook.ipynb): Comprehensive codebase encapsulating the project.
+- [Pre-trained Model Weights](model.pth): Pre-trained model weights, enabling immediate use and further experimentation.
 
-## Instructions
+## Results and Insights
 
-1. Clone this repository to your local machine:
+### Validation and training Accuracy
 
+![Accuracy graph](img/accuracy.png)
+
+The model exhibits an impressive validation accuracy of 96 percent on the MNIST dataset, demonstrating its robustness in digit recognition tasks.
+
+### Loss
+
+[loss graph](img/loss.png)
+
+The validation loss graph illustrates the model's continuous learning progress during training, indicative of its adaptability and efficiency.
+
+**Sample Test Result**:
+
+![Sample Test Result](img/test image.png)
+
+The image above shows a sample test result where the model correctly classified a handwritten digit as "0".
+
+## Getting Started
+
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/[repository-name].git
    cd [repository-name]
