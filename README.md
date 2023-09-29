@@ -21,13 +21,13 @@ The model exhibits an impressive validation accuracy of 96 percent on the MNIST 
 
 ### Loss
 
-[loss graph](img/loss.png)
+![loss graph](img/loss.png)
 
 The validation loss graph illustrates the model's continuous learning progress during training, indicative of its adaptability and efficiency.
 
 **Sample Test Result**:
 
-![Sample Test Result](img/test image.png)
+![Sample Test Result](img/test_image.png)
 
 The image above shows a sample test result where the model correctly classified a handwritten digit as "0".
 
