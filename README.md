@@ -27,7 +27,7 @@ The validation loss graph illustrates the model's continuous learning progress d
 
 **Sample Test Result**:
 
-![Sample Test Result](img/test_image.png)
+![Sample Test Result](img/test image.png)
 
 The image above shows a sample test result where the model correctly classified a handwritten digit as "0".
 
