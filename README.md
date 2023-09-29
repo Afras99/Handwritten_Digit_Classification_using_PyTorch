@@ -35,5 +35,5 @@ The image above shows a sample test result where the model correctly classified 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/[repository-name].git
-   cd [repository-name]
+   git clone https://github.com/Afras99/Handwritten_Digit_Classification_using_PyTorch.git
+   cd Handwritten_Digit_Classification_using_PyTorch
